@@ -1,0 +1,7 @@
+[build]
+  publish = "src"
+
+[[redirects]]
+  from = "https://shouldidrinktonight.netlify.app/*"
+  to = "https://shouldidrinktonight.com/:splat"
+  force = true
